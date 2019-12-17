@@ -1,0 +1,7 @@
+# Exclude hidden Files
+.DS_Store
+Thumbs.db
+
+# Src Directory #
+LuaSrc/
+

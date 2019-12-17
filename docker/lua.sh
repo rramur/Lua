@@ -1,3 +1,5 @@
+mkdir -p LuaSrc
+
 # Build the Docker if it doesnt exist
 if [ $(docker images ubuntu:lua | grep lua | wc -l) = "1" ]; then
     echo "Docker image lua exist"
